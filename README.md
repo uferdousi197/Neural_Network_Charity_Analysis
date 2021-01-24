@@ -26,13 +26,13 @@ The model was not able to reach the target of 75%. The accuracy for my model was
 
 # The steps taken to try and increase model performance
 
-Method 1: Removed additional feature, that is the 'USE_CASE' column. 
+- Method 1: Removed additional feature, that is the 'USE_CASE' column. 
 Rest of the model components stayed the same, however model accuracy went down to 63%.
 
-Method 2: Adding Additional neurons to hidden layers and additional hidden layers are added. 
+- Method 2: Adding Additional neurons to hidden layers and additional hidden layers are added. 
 The accuracy went down again, this time it was 53%.
 
-Method 3: Changing activation function of output layer from "sigmoid" to "tanh." 
+- Method 3: Changing activation function of output layer from "sigmoid" to "tanh." 
 The accuracy of the model went down even more to 50%.
 
 # Summary
